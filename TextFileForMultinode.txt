@@ -1,2 +1,7 @@
-Id  Username  Master_IP       Services  Start-Services  Slaves_IP                                     Replication_Servers
-1,  anmol,    20.204.83.112,  hadoop|   yes,            20.204.83.112|20.204.80.128|20.204.100.140,   3,
+Id  Username  Master_IP       Services                                                         Start-Services  Slaves_IP         Replication_Servers  Spark_Cores  Spark_Memory
+1,  ubuntu,   144.24.100.106, hadoop3.3|spark3.2|hive|airflow|postgresql|mssql|mysql|mongodb   yes,            144.24.100.106,   1,                   2            8g
+
+
+
+#for older version use hadoop3.2 and spark3.1
+#for newer version use hadoop3.3 and spark3.2
